@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Rena Yang</title>
-  <link rel="icon" href="images/icon.png" type="images/x-icon">
+    <link rel="icon" href="images/icon.png" type="images/x-icon">
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +33,7 @@
 <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
 	<div class="container">
 	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logo.png" alt="" class="img-fluid">
 	  </a>
 
 	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,13 @@
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
 
-			  			  <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown01">
+						<li><a class="dropdown-item" href="about.html">About Me</a></li>
+						<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+					</ul>
+			  </li>
 
 			  <li class="nav-item dropdown active">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
@@ -54,7 +61,16 @@
 						<li><a class="dropdown-item" href="portfolio-single.html">Portfolio Details</a></li>
 					</ul>
 			  </li>
-			   <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1dXZC1K-Sg28zCmLg2ZqbToT4aSzIvxob/view?usp=sharing">Resume</a></li>
+			   <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown05">
+						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
+
+						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+					</ul>
+			  </li>
+			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -68,7 +84,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="text-center">
-          <h1 class="text-capitalize mb-0 text-lg">Quantifying Cohesive Sediment Dynamics</h1>
+          <h1 class="text-capitalize mb-0 text-lg">Portfolio Single</h1>
         </div>
       </div>
     </div>
@@ -78,26 +94,28 @@
 
 <section class="section portfolio-single">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<img src="images/feslab_banner.jpg" alt="" class="img-fluid w-100">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="project-info">
+					<h3 class="mb-4">Bipolar Electrodes for Microfluidic Pumping</h3>
+					<p>Bipolar electrodes (BPEs) are conductors that, when exposed to an electric field, polarize and promote the accumulation of counterionic charge near their poles. The rich physics of electrokinetic behavior near BPEs has not yet been rigorously studied, with our current understanding of such bipolar effects being restricted to steady-state conditions (under constant applied fields).</p>
+
+					<p>Here, we reveal the dynamic electrokinetic and electrochemical phenomena that occur near nanoconfined BPEs throughout all stages of a reaction.</p>
+				</div>
 			</div>
 		</div>
 
 		<div class="row mt-5">
-			<div class="col-lg-6">
-				<div class="project-info">
-					<!--h3 class="mb-4">Photography</h3-->
-					<p>Accurate sediment models are essential to predict the environmental dynamics of lakes, estuaries, the coastal ocean, fisheries, and benthic habitats, and they play a central role in hydrocarbon exploration. However, sediment can display extremely complex mechanics resulting from strong cohesive and adhesive forces between individual particles. These forces are obscured by the effects of gravity at the laboratory scale, making it difficult to measure them in an Earth-bound setting.</p>
-					
-					<p>This project, supported by a grant from NSF-CASIS, will yield accurate measurements in space-based experiments, as well as their implementation in state-of-the-art computational codes, enabling vast improvements in the accuracy of environmental models.</P>
-				</div>
+			<div class="col-lg-12">
+				<img src="images/nanolab_1.jpg" alt="" class="img-fluid w-100">
 			</div>
 		</div>
+
+
 		<div class="row mt-5 justify-content-center">
 			<div class="col-lg-6 text-center">
-				<a href="portfolio-single.html" class="btn btn-dark">Previous Work</a>
-				<a href="portfolio-single3.html" class="btn btn-dark">Next Work</a>
+				<a href="portfolio-single3.html" class="btn btn-dark">Previous Work</a>
+				<a href="portfolio-single.html" class="btn btn-dark">Next Work</a>
 			</div>
 		</div>
 	</div>
