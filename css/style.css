@@ -95,7 +95,7 @@ h6, .h6 {
 }
 
 .btn-main {
-  background: #00CECE;
+  background: #FFD33F;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ h6, .h6 {
 }
 
 .btn-black:hover {
-  background: #00CECE;
+  background: #FFD33F;
   color: #fff;
 }
 
@@ -131,13 +131,13 @@ a {
 }
 
 a:hover {
-  color: #00CECE;
+  color: #FFD33F;
   text-decoration: none;
   outline: none;
 }
 
 .bg-primary {
-  background: #00CECE !important;
+  background: #FFD33F !important;
 }
 
 .bg-secondary {
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .text-color {
-  color: #00CECE;
+  color: #FFD33F;
 }
 
 .page-title h1 {
@@ -165,7 +165,7 @@ a:hover {
   width: 40px;
   height: 2px;
   margin-left: -25px;
-  background: #00CECE;
+  background: #FFD33F;
 }
 
 @media (max-width: 575px) {
@@ -233,7 +233,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #00CECE;
+  color: #FFD33F;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -365,7 +365,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .portfolio .btn-group .btn:hover {
-  color: #00CECE;
+  color: #FFD33F;
 }
 
 .portfolio .btn-group:not(:first-child) > .btn, .portfolio .btn-group > .btn:not(:first-child) {
@@ -374,7 +374,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .portfolio .btn.active {
-  color: #00CECE;
+  color: #FFD33F;
 }
 
 .inner-box {
@@ -615,7 +615,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #00CECE;
+  border-color: #FFD33F;
 }
 
 textarea.form-control {
@@ -639,7 +639,7 @@ textarea.form-control {
   width: 40px;
   height: 2px;
   margin-left: -25px;
-  background: #00CECE;
+  background: #FFD33F;
 }
 
 .letter-spacing {
@@ -670,7 +670,7 @@ textarea.form-control {
 }
 
 .post .post-content a:hover h4 {
-  color: #00CECE;
+  color: #FFD33F;
 }
 
 .pagination {
@@ -688,12 +688,12 @@ textarea.form-control {
 }
 
 .pagination li a:hover {
-  background: #00CECE;
+  background: #FFD33F;
   color: #fff;
 }
 
 .pagination li.active a {
-  background: #00CECE;
+  background: #FFD33F;
   color: #fff;
 }
 
